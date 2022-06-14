@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #ffffff;;
+}
+
+input.form-control,input.form-control:focus{
+    background-color: #ededed;
+    color: darkgrey;
+    border-color: grey;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+input.form-control:focus{
+    box-shadow: none;
+    border-bottom-color: steelblue;
+}
+
+button[type=submit].btn{
+    border-radius: 25px;
+    background-color: steelblue;
+    color: #fff;
+    width: 60%;
+}
+
+div.form-group label{
+    color: steelblue;
+    font-weight: bold;
+}
+
+div.form-group.required>label:first-child:after{
+    content:'*';
+    color: #dc3545;
+	padding-left: 5px;
+}
+
+#toast-container > div {
+    opacity:1;
+}
+
+form{
+    margin: 0px 16px;
+}
+
+div.side-header{
+    border:3px solid black;
+}
